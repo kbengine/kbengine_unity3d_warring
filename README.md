@@ -95,6 +95,10 @@ http://www.kbengine.org
 ##在Unity3D编辑器运行游戏
 	
 	Unity3D中选择Assets\scenes\start场景然后点击编辑器运行按钮，如果无意外应该可以登录游戏进入到场景中了。
+	(注意：运行游戏前请确保Unity3D控制台“错误暂停”是取消状态，因为一些原因一定会遇到错误，参考：http://bbs.kbengine.org/forum.php?mod=viewthread&tid=20&extra=page%3D1)
+
+![unity_error_pause](http://www.kbengine.org/assets/img/screenshots/unity_error_pause.png)
+
 
 ##在浏览器运行游戏:
 
