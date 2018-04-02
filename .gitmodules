@@ -1,3 +1,4 @@
 [submodule "kbengine_demos_assets"]
 	path = kbengine_demos_assets
 	url = https://github.com/kbengine/kbengine_demos_assets.git
+	branch = 1.x
