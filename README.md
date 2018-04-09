@@ -17,7 +17,7 @@ http://www.kbengine.org
 
 ## KBE插件文档
 
-	https://github.com/kbengine/kbengine_unity3d_plugins/blob/master/README.md
+	Assets\Plugins\kbengine\kbengine_unity3d_plugins\README.md
 
 
 ## GO!
@@ -32,7 +32,7 @@ http://www.kbengine.org
 		安装(KBEngine)：
 			http://www.kbengine.org/docs/installation.html
 
-	2. 下载KBEngine客户端插件与服务端Demo资产库:
+	2. 下载KBEngine服务端Demo资产库:
 
 		* 使用git命令行，进入到kbengine_unity3d_warring目录执行：
 
@@ -42,11 +42,7 @@ http://www.kbengine.org
 		* 或者使用 TortoiseGit(选择菜单): TortoiseGit -> Submodule Update:
 ![submodule_update2](http://www.kbengine.org/assets/img/screenshots/unity3d_plugins_submodule_update.jpg)
 
-                * 也可以手动下载kbengine客户端插件与服务端Demo资产库
-
-		        客户端插件下载：
-		            https://github.com/kbengine/kbengine_unity3d_plugins/releases/latest
-		            下载后请将其解压缩，插件源码请放置在: Assets/plugins/kbengine/kbengine_unity3d_plugins
+                * 也可以手动下载kbengine服务端Demo资产库
 
 		        服务端资产库下载：
 		            https://github.com/kbengine/kbengine_demos_assets/releases/latest
@@ -54,6 +50,10 @@ http://www.kbengine.org
 
 	3. 拷贝服务端资产库"kbengine_demos_assets"到服务端引擎根目录"kbengine/"之下，如下图：
 ![demo_configure](http://www.kbengine.org/assets/img/screenshots/demo_copy_kbengine.jpg)
+
+	4. 通过服务端资产库生成KBE客户端插件（可选，默认已经带有一份，除非服务器有相关改动才需要再次生成）
+		1: 双击运行 kbengine/kbengine_demos_asset/gensdk.bat
+		2: 拷贝kbengine_unity3d_plugins到kbengine_unity3d_warring\Assets\Plugins\kbengine\
 
 
 ## 配置Demo(可选):
