@@ -29,7 +29,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator UINT8(int value)
+		public static implicit operator UINT8(Byte value)
 		{
 			Byte tvalue = (Byte)value;
 			return new UINT8(tvalue);
@@ -66,7 +66,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator UINT16(int value)
+		public static implicit operator UINT16(UInt16 value)
 		{
 			UInt16 tvalue = (UInt16)value;
 			return new UINT16(tvalue);
@@ -103,7 +103,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator UINT64(int value)
+		public static implicit operator UINT64(UInt64 value)
 		{
 			UInt64 tvalue = (UInt64)value;
 			return new UINT64(tvalue);
@@ -140,7 +140,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator UINT32(int value)
+		public static implicit operator UINT32(UInt32 value)
 		{
 			UInt32 tvalue = (UInt32)value;
 			return new UINT32(tvalue);
@@ -177,7 +177,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator INT8(int value)
+		public static implicit operator INT8(SByte value)
 		{
 			SByte tvalue = (SByte)value;
 			return new INT8(tvalue);
@@ -214,7 +214,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator INT16(int value)
+		public static implicit operator INT16(Int16 value)
 		{
 			Int16 tvalue = (Int16)value;
 			return new INT16(tvalue);
@@ -251,7 +251,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator INT32(int value)
+		public static implicit operator INT32(Int32 value)
 		{
 			Int32 tvalue = (Int32)value;
 			return new INT32(tvalue);
@@ -288,7 +288,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator INT64(int value)
+		public static implicit operator INT64(Int64 value)
 		{
 			Int64 tvalue = (Int64)value;
 			return new INT64(tvalue);
@@ -367,7 +367,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator FLOAT(int value)
+		public static implicit operator FLOAT(float value)
 		{
 			float tvalue = (float)value;
 			return new FLOAT(tvalue);
@@ -404,7 +404,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator DOUBLE(int value)
+		public static implicit operator DOUBLE(double value)
 		{
 			double tvalue = (double)value;
 			return new DOUBLE(tvalue);
@@ -722,7 +722,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator OBJECT_ID(int value)
+		public static implicit operator OBJECT_ID(Int32 value)
 		{
 			Int32 tvalue = (Int32)value;
 			return new OBJECT_ID(tvalue);
@@ -759,7 +759,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator BOOL(int value)
+		public static implicit operator BOOL(Byte value)
 		{
 			Byte tvalue = (Byte)value;
 			return new BOOL(tvalue);
@@ -796,7 +796,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator CONTROLLER_ID(int value)
+		public static implicit operator CONTROLLER_ID(Int32 value)
 		{
 			Int32 tvalue = (Int32)value;
 			return new CONTROLLER_ID(tvalue);
@@ -833,7 +833,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator EXPERIENCE(int value)
+		public static implicit operator EXPERIENCE(Int32 value)
 		{
 			Int32 tvalue = (Int32)value;
 			return new EXPERIENCE(tvalue);
@@ -870,7 +870,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator ITEM_ID(int value)
+		public static implicit operator ITEM_ID(Int32 value)
 		{
 			Int32 tvalue = (Int32)value;
 			return new ITEM_ID(tvalue);
@@ -907,7 +907,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator SKILLID(int value)
+		public static implicit operator SKILLID(Int32 value)
 		{
 			Int32 tvalue = (Int32)value;
 			return new SKILLID(tvalue);
@@ -944,7 +944,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator QUESTID(int value)
+		public static implicit operator QUESTID(Int32 value)
 		{
 			Int32 tvalue = (Int32)value;
 			return new QUESTID(tvalue);
@@ -981,7 +981,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator DBID(int value)
+		public static implicit operator DBID(UInt64 value)
 		{
 			UInt64 tvalue = (UInt64)value;
 			return new DBID(tvalue);
@@ -1018,7 +1018,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator UID(int value)
+		public static implicit operator UID(UInt64 value)
 		{
 			UInt64 tvalue = (UInt64)value;
 			return new UID(tvalue);
@@ -1082,7 +1082,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator ENTITY_ID(int value)
+		public static implicit operator ENTITY_ID(Int32 value)
 		{
 			Int32 tvalue = (Int32)value;
 			return new ENTITY_ID(tvalue);
@@ -1119,7 +1119,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator ENTITY_NO(int value)
+		public static implicit operator ENTITY_NO(UInt32 value)
 		{
 			UInt32 tvalue = (UInt32)value;
 			return new ENTITY_NO(tvalue);
@@ -1156,7 +1156,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator SPACE_ID(int value)
+		public static implicit operator SPACE_ID(UInt32 value)
 		{
 			UInt32 tvalue = (UInt32)value;
 			return new SPACE_ID(tvalue);
@@ -1273,7 +1273,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator ENTITY_UTYPE(int value)
+		public static implicit operator ENTITY_UTYPE(UInt32 value)
 		{
 			UInt32 tvalue = (UInt32)value;
 			return new ENTITY_UTYPE(tvalue);
@@ -1310,7 +1310,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator DAMAGE_TYPE(int value)
+		public static implicit operator DAMAGE_TYPE(Int32 value)
 		{
 			Int32 tvalue = (Int32)value;
 			return new DAMAGE_TYPE(tvalue);
@@ -1347,7 +1347,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator ENMITY(int value)
+		public static implicit operator ENMITY(Int32 value)
 		{
 			Int32 tvalue = (Int32)value;
 			return new ENMITY(tvalue);
@@ -1384,7 +1384,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator HP(int value)
+		public static implicit operator HP(Int32 value)
 		{
 			Int32 tvalue = (Int32)value;
 			return new HP(tvalue);
@@ -1421,7 +1421,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator MP(int value)
+		public static implicit operator MP(Int32 value)
 		{
 			Int32 tvalue = (Int32)value;
 			return new MP(tvalue);
@@ -1458,7 +1458,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator ENTITY_STATE(int value)
+		public static implicit operator ENTITY_STATE(SByte value)
 		{
 			SByte tvalue = (SByte)value;
 			return new ENTITY_STATE(tvalue);
@@ -1495,7 +1495,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator ENTITY_SUBSTATE(int value)
+		public static implicit operator ENTITY_SUBSTATE(Byte value)
 		{
 			Byte tvalue = (Byte)value;
 			return new ENTITY_SUBSTATE(tvalue);
@@ -1532,7 +1532,7 @@ namespace KBEngine
 			return value.value;
 		}
 
-		public static implicit operator ENTITY_FORBIDS(int value)
+		public static implicit operator ENTITY_FORBIDS(Int32 value)
 		{
 			Int32 tvalue = (Int32)value;
 			return new ENTITY_FORBIDS(tvalue);
