@@ -27,20 +27,20 @@ http://www.kbengine.org
 			https://github.com/kbengine/kbengine/releases/latest
 
 		编译(KBEngine)：
-			http://www.kbengine.org/docs/build.html
+			http://kbengine.github.io/docs/build.html
 
 		安装(KBEngine)：
-			http://www.kbengine.org/docs/installation.html
+			http://kbengine.github.io/docs/installation.html
 
 	2. 下载KBEngine服务端Demo资产库:
 
 		* 使用git命令行，进入到kbengine_unity3d_warring目录执行：
 
 			git submodule update --init --remote
-![submodule_update1](http://www.kbengine.org/assets/img/screenshots/gitbash_submodule.png)
+![submodule_update1](http://kbengine.github.io/assets/img/screenshots/gitbash_submodule.png)
 
 		* 或者使用 TortoiseGit(选择菜单): TortoiseGit -> Submodule Update:
-![submodule_update2](http://www.kbengine.org/assets/img/screenshots/unity3d_plugins_submodule_update.jpg)
+![submodule_update2](http://kbengine.github.io/assets/img/screenshots/unity3d_plugins_submodule_update.jpg)
 
                 * 也可以手动下载kbengine服务端Demo资产库
 
@@ -49,7 +49,7 @@ http://www.kbengine.org
 		            下载后请将其解压缩,并将目录文件放置于服务端引擎根目录"kbengine/"之下，如下图：
 
 	3. 拷贝服务端资产库"kbengine_demos_assets"到服务端引擎根目录"kbengine/"之下，如下图：
-![demo_configure](http://www.kbengine.org/assets/img/screenshots/demo_copy_kbengine.jpg)
+![demo_configure](http://kbengine.github.io/assets/img/screenshots/demo_copy_kbengine.jpg)
 
 	4. 通过服务端资产库生成KBE客户端插件（可选，默认已经带有一份，除非服务器有相关改动才需要再次生成）
 		1: 双击运行 kbengine/kbengine_demos_asset/gensdk.bat
@@ -72,8 +72,8 @@ http://www.kbengine.org
 		(注意: 生成完毕后建议删除cai-nmgen-rcn(generate navmesh).zip解压出来的文件，会造成无法导出游戏的错误，原因未知。)
 		(如果有更多问题请咨询插件作者: http://www.critterai.org/projects/cainav/)
 
-	改变登录IP地址与端口（注意：关于服务端端口部分参看http://www.kbengine.org/cn/docs/installation.html）:
-![demo_configure](http://www.kbengine.org/assets/img/screenshots/demo_configure.jpg)
+	改变登录IP地址与端口（注意：关于服务端端口部分参看http://kbengine.github.io/cn/docs/installation.html）:
+![demo_configure](http://kbengine.github.io/assets/img/screenshots/demo_configure.jpg)
 
 		kbengine_unity3d_warring\Scripts\kbe_scripts\clientapp.cs -> ip
 		kbengine_unity3d_warring\Scripts\kbe_scripts\clientapp.cs -> port
@@ -90,7 +90,7 @@ http://www.kbengine.org
 	检查启动状态:
 		如果启动成功将会在日志中找到"Components::process(): Found all the components!"。
 		任何其他情况请在日志中搜索"ERROR"关键字，根据错误描述尝试解决。
-		(More: http://www.kbengine.org/cn/docs/startup_shutdown.html)
+		(More: http://kbengine.github.io/cn/docs/startup_shutdown.html)
 
 ## 导出WebPlayer项目:
 
@@ -103,7 +103,7 @@ http://www.kbengine.org
 	Unity3D中选择Assets\scenes\start场景然后点击编辑器运行按钮，如果无意外应该可以登录游戏进入到场景中了。
 	(注意：运行游戏前请确保Unity3D控制台“错误暂停”是取消状态，因为一些原因一定会遇到错误，参考：http://bbs.kbengine.org/forum.php?mod=viewthread&tid=20&extra=page%3D1)
 
-![unity_error_pause](http://www.kbengine.org/assets/img/screenshots/unity_error_pause.png)
+![unity_error_pause](http://kbengine.github.io/assets/img/screenshots/unity_error_pause.png)
 
 
 ## 在浏览器运行游戏:
@@ -134,10 +134,10 @@ http://www.kbengine.org
 
 ## warring截图
 
-![warring项目运行效果](http://www.kbengine.org/assets/img/screenshots/unity3d_demo1.jpg)
-![warring项目运行效果](http://www.kbengine.org/assets/img/screenshots/unity3d_demo2.jpg)
-![warring项目运行效果](http://www.kbengine.org/assets/img/screenshots/unity3d_demo3.jpg)
-![warring项目运行效果](http://www.kbengine.org/assets/img/screenshots/unity3d_demo4.jpg)
-![warring项目运行效果](http://www.kbengine.org/assets/img/screenshots/unity3d_demo5.jpg)
-![warring项目运行效果](http://www.kbengine.org/assets/img/screenshots/unity3d_demo6.jpg)
-![warring项目运行效果](http://www.kbengine.org/assets/img/screenshots/unity3d_demo33.jpg)
+![warring项目运行效果](http://kbengine.github.io/assets/img/screenshots/unity3d_demo1.jpg)
+![warring项目运行效果](http://kbengine.github.io/assets/img/screenshots/unity3d_demo2.jpg)
+![warring项目运行效果](http://kbengine.github.io/assets/img/screenshots/unity3d_demo3.jpg)
+![warring项目运行效果](http://kbengine.github.io/assets/img/screenshots/unity3d_demo4.jpg)
+![warring项目运行效果](http://kbengine.github.io/assets/img/screenshots/unity3d_demo5.jpg)
+![warring项目运行效果](http://kbengine.github.io/assets/img/screenshots/unity3d_demo6.jpg)
+![warring项目运行效果](http://kbengine.github.io/assets/img/screenshots/unity3d_demo33.jpg)
