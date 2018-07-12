@@ -16,11 +16,11 @@
 		包括网络创建、持久化协议、entities的管理、以及引起对外可调用接口。
 		
 		一些可以参考的地方:
-		http://www.kbengine.org/docs/programming/clientsdkprogramming.html
-		http://www.kbengine.org/docs/programming/kbe_message_format.html
+		http://kbengine.github.io/docs/programming/clientsdkprogramming.html
+		http://kbengine.github.io/docs/programming/kbe_message_format.html
 		
-		http://www.kbengine.org/cn/docs/programming/clientsdkprogramming.html
-		http://www.kbengine.org/cn/docs/programming/kbe_message_format.html
+		http://kbengine.github.io/cn/docs/programming/clientsdkprogramming.html
+		http://kbengine.github.io/cn/docs/programming/kbe_message_format.html
 	*/
 	public class KBEngineApp
 	{
@@ -30,8 +30,8 @@
         KBEngineArgs _args = null;
         
     	// 客户端的类别
-    	// http://www.kbengine.org/docs/programming/clientsdkprogramming.html
-    	// http://www.kbengine.org/cn/docs/programming/clientsdkprogramming.html
+    	// http://kbengine.github.io/docs/programming/clientsdkprogramming.html
+    	// http://kbengine.github.io/cn/docs/programming/clientsdkprogramming.html
 		public enum CLIENT_TYPE
 		{
 			// Mobile(Phone, Pad)
@@ -77,7 +77,7 @@
 		
 		// 服务端与客户端的版本号以及协议MD5
 		public string serverVersion = "";
-		public string clientVersion = "1.1.9";
+		public string clientVersion = "1.1.10";
 		public string serverScriptVersion = "";
 		public string clientScriptVersion = "0.1.0";
 		public string serverProtocolMD5 = "4930E6C01028CE4D5B3CE228CA841378";
@@ -112,6 +112,10 @@
 		private System.DateTime _lastTickCBTime = System.DateTime.Now;
 		private System.DateTime _lastUpdateToServerTime = System.DateTime.Now;
 		
+		//上传玩家信息到服务器间隔，单位毫秒
+        private float _updatePlayerToServerPeroid = 100.0f;
+		private const int _1MS_TO_100NS = 10000;
+
 		// 玩家当前所在空间的id， 以及空间对应的资源
 		public UInt32 spaceID = 0;
 		public string spaceResPath = "";
@@ -133,7 +137,8 @@
 		public virtual bool initialize(KBEngineArgs args)
 		{
 			_args = args;
-			
+			_updatePlayerToServerPeroid = (float)_args.syncPlayerMS;
+
 			EntityDef.init();
 
         	initNetwork();
@@ -551,7 +556,10 @@
 			一些移动类应用容易掉线，可以使用该功能快速的重新与服务端建立通信
 		*/
 		public void reloginBaseapp()
-		{  
+		{
+			_lastTickTime = System.DateTime.Now;
+			_lastTickCBTime = System.DateTime.Now;
+
 			if(_networkInterface.valid())
 				return;
 
@@ -1274,11 +1282,11 @@
 		}
 
 		/*
-			更新当前玩家的位置与朝向到服务端， 可以通过开关_syncPlayer关闭这个机制
+			更新当前玩家的位置与朝向到服务端， 可以通过开关_syncPlayerMS关闭这个机制
 		*/
 		public void updatePlayerToServer()
 		{
-			if(!_args.syncPlayer || spaceID == 0)
+			if(_updatePlayerToServerPeroid <= 0.01f || spaceID == 0)
 			{
 				return;
 			}
@@ -1286,14 +1294,14 @@
 			var now = DateTime.Now;
 			TimeSpan span = now - _lastUpdateToServerTime;
 
-			if (span.Ticks < 1000000)
-				return;
+			if (span.Ticks < _updatePlayerToServerPeroid * _1MS_TO_100NS)
+                return;
 			
 			Entity playerEntity = player();
 			if (playerEntity == null || playerEntity.inWorld == false || playerEntity.isControlled)
 				return;
 
-			_lastUpdateToServerTime = now - (span - TimeSpan.FromTicks(1000000));
+			_lastUpdateToServerTime = now - (span - TimeSpan.FromTicks(Convert.ToInt64(_updatePlayerToServerPeroid * _1MS_TO_100NS)));
 			
 			Vector3 position = playerEntity.position;
 			Vector3 direction = playerEntity.direction;
