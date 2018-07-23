@@ -80,7 +80,7 @@
 		public string clientVersion = "1.1.10";
 		public string serverScriptVersion = "";
 		public string clientScriptVersion = "0.1.0";
-		public string serverProtocolMD5 = "4930E6C01028CE4D5B3CE228CA841378";
+		public string serverProtocolMD5 = "17061F20D3B5B20E521AA297375B036A";
 		public string serverEntitydefMD5 = "39BBC4CA001B76B399F5F1CF960055BD";
 		
 		// 当前玩家的实体id与实体类别
@@ -159,6 +159,7 @@
 		{
 			Event.registerIn("createAccount", this, "createAccount");
 			Event.registerIn("login", this, "login");
+			Event.registerIn("logout", this, "logout");
 			Event.registerIn("reloginBaseapp", this, "reloginBaseapp");
 			Event.registerIn("resetPassword", this, "resetPassword");
 			Event.registerIn("bindAccountEmail", this, "bindAccountEmail");
@@ -589,6 +590,18 @@
 			_lastTickCBTime = System.DateTime.Now;
 		}
 
+		/*
+			登出baseapp
+		*/
+		public void logout()
+		{
+			Bundle bundle = Bundle.createObject();
+			bundle.newMessage(Messages.messages["Baseapp_logoutBaseapp"]);
+			bundle.writeUint64(entity_uuid);
+			bundle.writeInt32(entity_id);
+			bundle.send(_networkInterface);
+		}
+		
 		/*
 			通过错误id得到错误描述
 		*/
@@ -2072,7 +2085,7 @@
 		{
 			TimeSpan span = DateTime.Now - _lasttime; 
 			
-			int diff = (int)(threadUpdatePeriod - span.Milliseconds);
+			int diff = (int)(threadUpdatePeriod - span.TotalMilliseconds);
 
 			if(diff < 0)
 				diff = 0;
