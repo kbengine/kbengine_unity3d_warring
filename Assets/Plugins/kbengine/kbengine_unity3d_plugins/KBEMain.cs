@@ -18,9 +18,9 @@ public class KBEMain : MonoBehaviour
 	public string ip = "127.0.0.1";
 	public int port = 20013;
 	public KBEngineApp.CLIENT_TYPE clientType = KBEngineApp.CLIENT_TYPE.CLIENT_TYPE_MINI;
-	public int syncPlayerMS = 100;
+	public int syncPlayerMS = 10 * 10;
 	public int threadUpdateHZ = 10;
-	public int serverHeartbeatTick = 15;
+	public int serverHeartbeatTick = 60 / 2;
 	public int SEND_BUFFER_MAX = (int)KBEngine.NetworkInterface.TCP_PACKET_MAX;
 	public int RECV_BUFFER_MAX = (int)KBEngine.NetworkInterface.TCP_PACKET_MAX;
 	public bool useAliasEntityID = true;
