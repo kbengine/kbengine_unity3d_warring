@@ -526,6 +526,351 @@ namespace KBEngine
 		}
 	}
 
+	public class Message_Client_onUpdateData_ypr_optimized : Message
+	{
+
+		public Message_Client_onUpdateData_ypr_optimized(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onUpdateData_ypr_optimized(msgstream);
+		}
+	}
+
+	public class Message_Client_onUpdateData_yp_optimized : Message
+	{
+
+		public Message_Client_onUpdateData_yp_optimized(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onUpdateData_yp_optimized(msgstream);
+		}
+	}
+
+	public class Message_Client_onUpdateData_yr_optimized : Message
+	{
+
+		public Message_Client_onUpdateData_yr_optimized(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onUpdateData_yr_optimized(msgstream);
+		}
+	}
+
+	public class Message_Client_onUpdateData_pr_optimized : Message
+	{
+
+		public Message_Client_onUpdateData_pr_optimized(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onUpdateData_pr_optimized(msgstream);
+		}
+	}
+
+	public class Message_Client_onUpdateData_y_optimized : Message
+	{
+
+		public Message_Client_onUpdateData_y_optimized(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onUpdateData_y_optimized(msgstream);
+		}
+	}
+
+	public class Message_Client_onUpdateData_p_optimized : Message
+	{
+
+		public Message_Client_onUpdateData_p_optimized(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onUpdateData_p_optimized(msgstream);
+		}
+	}
+
+	public class Message_Client_onUpdateData_r_optimized : Message
+	{
+
+		public Message_Client_onUpdateData_r_optimized(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onUpdateData_r_optimized(msgstream);
+		}
+	}
+
+	public class Message_Client_onUpdateData_xz_optimized : Message
+	{
+
+		public Message_Client_onUpdateData_xz_optimized(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onUpdateData_xz_optimized(msgstream);
+		}
+	}
+
+	public class Message_Client_onUpdateData_xz_ypr_optimized : Message
+	{
+
+		public Message_Client_onUpdateData_xz_ypr_optimized(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onUpdateData_xz_ypr_optimized(msgstream);
+		}
+	}
+
+	public class Message_Client_onUpdateData_xz_yp_optimized : Message
+	{
+
+		public Message_Client_onUpdateData_xz_yp_optimized(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onUpdateData_xz_yp_optimized(msgstream);
+		}
+	}
+
+	public class Message_Client_onUpdateData_xz_yr_optimized : Message
+	{
+
+		public Message_Client_onUpdateData_xz_yr_optimized(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onUpdateData_xz_yr_optimized(msgstream);
+		}
+	}
+
+	public class Message_Client_onUpdateData_xz_pr_optimized : Message
+	{
+
+		public Message_Client_onUpdateData_xz_pr_optimized(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onUpdateData_xz_pr_optimized(msgstream);
+		}
+	}
+
+	public class Message_Client_onUpdateData_xz_y_optimized : Message
+	{
+
+		public Message_Client_onUpdateData_xz_y_optimized(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onUpdateData_xz_y_optimized(msgstream);
+		}
+	}
+
+	public class Message_Client_onUpdateData_xz_p_optimized : Message
+	{
+
+		public Message_Client_onUpdateData_xz_p_optimized(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onUpdateData_xz_p_optimized(msgstream);
+		}
+	}
+
+	public class Message_Client_onUpdateData_xz_r_optimized : Message
+	{
+
+		public Message_Client_onUpdateData_xz_r_optimized(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onUpdateData_xz_r_optimized(msgstream);
+		}
+	}
+
+	public class Message_Client_onUpdateData_xyz_optimized : Message
+	{
+
+		public Message_Client_onUpdateData_xyz_optimized(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onUpdateData_xyz_optimized(msgstream);
+		}
+	}
+
+	public class Message_Client_onUpdateData_xyz_ypr_optimized : Message
+	{
+
+		public Message_Client_onUpdateData_xyz_ypr_optimized(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onUpdateData_xyz_ypr_optimized(msgstream);
+		}
+	}
+
+	public class Message_Client_onUpdateData_xyz_yp_optimized : Message
+	{
+
+		public Message_Client_onUpdateData_xyz_yp_optimized(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onUpdateData_xyz_yp_optimized(msgstream);
+		}
+	}
+
+	public class Message_Client_onUpdateData_xyz_yr_optimized : Message
+	{
+
+		public Message_Client_onUpdateData_xyz_yr_optimized(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onUpdateData_xyz_yr_optimized(msgstream);
+		}
+	}
+
+	public class Message_Client_onUpdateData_xyz_pr_optimized : Message
+	{
+
+		public Message_Client_onUpdateData_xyz_pr_optimized(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onUpdateData_xyz_pr_optimized(msgstream);
+		}
+	}
+
+	public class Message_Client_onUpdateData_xyz_y_optimized : Message
+	{
+
+		public Message_Client_onUpdateData_xyz_y_optimized(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onUpdateData_xyz_y_optimized(msgstream);
+		}
+	}
+
+	public class Message_Client_onUpdateData_xyz_p_optimized : Message
+	{
+
+		public Message_Client_onUpdateData_xyz_p_optimized(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onUpdateData_xyz_p_optimized(msgstream);
+		}
+	}
+
+	public class Message_Client_onUpdateData_xyz_r_optimized : Message
+	{
+
+		public Message_Client_onUpdateData_xyz_r_optimized(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onUpdateData_xyz_r_optimized(msgstream);
+		}
+	}
+
 	public class Message_Client_onImportServerErrorsDescr : Message
 	{
 
@@ -538,6 +883,21 @@ namespace KBEngine
 		public override void handleMessage(MemoryStream msgstream)
 		{
 			KBEngineApp.app.Client_onImportServerErrorsDescr(msgstream);
+		}
+	}
+
+	public class Message_Client_onImportClientSDK : Message
+	{
+
+		public Message_Client_onImportClientSDK(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+			KBEngineApp.app.Client_onImportClientSDK(msgstream);
 		}
 	}
 
@@ -1083,6 +1443,20 @@ namespace KBEngine
 		}
 	}
 
+	public class Message_Loginapp_importClientSDK : Message
+	{
+
+		public Message_Loginapp_importClientSDK(MessageID msgid, string msgname, Int16 length, sbyte argstype, List<Byte> msgargtypes):
+			base(msgid, msgname, length, argstype, msgargtypes)
+		{
+
+		}
+
+		public override void handleMessage(MemoryStream msgstream)
+		{
+		}
+	}
+
 	public class Message_Loginapp_importServerErrorsDescr : Message
 	{
 
@@ -1344,155 +1718,227 @@ namespace KBEngine
 
 			List<Byte> Client_onReloginBaseappFailed_argstypes = new List<Byte>();
 			Client_onReloginBaseappFailed_argstypes.Add(3);
-			Messages.messages["Client_onReloginBaseappFailed"] = new Message_Client_onReloginBaseappFailed(7, "Client_onReloginBaseappFailed", 2, 0, Client_onReloginBaseappFailed_argstypes);
-			Messages.clientMessages[7] = Messages.messages["Client_onReloginBaseappFailed"];
+			Messages.messages["Client_onReloginBaseappFailed"] = new Message_Client_onReloginBaseappFailed(8, "Client_onReloginBaseappFailed", 2, 0, Client_onReloginBaseappFailed_argstypes);
+			Messages.clientMessages[8] = Messages.messages["Client_onReloginBaseappFailed"];
 
-			Messages.messages["Client_onEntityLeaveWorldOptimized"] = new Message_Client_onEntityLeaveWorldOptimized(8, "Client_onEntityLeaveWorldOptimized", -1, -1, new List<Byte>());
-			Messages.clientMessages[8] = Messages.messages["Client_onEntityLeaveWorldOptimized"];
+			Messages.messages["Client_onEntityLeaveWorldOptimized"] = new Message_Client_onEntityLeaveWorldOptimized(9, "Client_onEntityLeaveWorldOptimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[9] = Messages.messages["Client_onEntityLeaveWorldOptimized"];
 
-			Messages.messages["Client_onRemoteMethodCallOptimized"] = new Message_Client_onRemoteMethodCallOptimized(9, "Client_onRemoteMethodCallOptimized", -1, -1, new List<Byte>());
-			Messages.clientMessages[9] = Messages.messages["Client_onRemoteMethodCallOptimized"];
+			Messages.messages["Client_onRemoteMethodCallOptimized"] = new Message_Client_onRemoteMethodCallOptimized(10, "Client_onRemoteMethodCallOptimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[10] = Messages.messages["Client_onRemoteMethodCallOptimized"];
 
-			Messages.messages["Client_onUpdatePropertysOptimized"] = new Message_Client_onUpdatePropertysOptimized(10, "Client_onUpdatePropertysOptimized", -1, -1, new List<Byte>());
-			Messages.clientMessages[10] = Messages.messages["Client_onUpdatePropertysOptimized"];
+			Messages.messages["Client_onUpdatePropertysOptimized"] = new Message_Client_onUpdatePropertysOptimized(11, "Client_onUpdatePropertysOptimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[11] = Messages.messages["Client_onUpdatePropertysOptimized"];
 
-			Messages.messages["Client_onSetEntityPosAndDir"] = new Message_Client_onSetEntityPosAndDir(11, "Client_onSetEntityPosAndDir", -1, -1, new List<Byte>());
-			Messages.clientMessages[11] = Messages.messages["Client_onSetEntityPosAndDir"];
+			Messages.messages["Client_onSetEntityPosAndDir"] = new Message_Client_onSetEntityPosAndDir(12, "Client_onSetEntityPosAndDir", -1, -1, new List<Byte>());
+			Messages.clientMessages[12] = Messages.messages["Client_onSetEntityPosAndDir"];
 
 
 			List<Byte> Client_onUpdateBasePos_argstypes = new List<Byte>();
 			Client_onUpdateBasePos_argstypes.Add(13);
 			Client_onUpdateBasePos_argstypes.Add(13);
 			Client_onUpdateBasePos_argstypes.Add(13);
-			Messages.messages["Client_onUpdateBasePos"] = new Message_Client_onUpdateBasePos(12, "Client_onUpdateBasePos", 12, 0, Client_onUpdateBasePos_argstypes);
-			Messages.clientMessages[12] = Messages.messages["Client_onUpdateBasePos"];
+			Messages.messages["Client_onUpdateBasePos"] = new Message_Client_onUpdateBasePos(13, "Client_onUpdateBasePos", 12, 0, Client_onUpdateBasePos_argstypes);
+			Messages.clientMessages[13] = Messages.messages["Client_onUpdateBasePos"];
 
-			Messages.messages["Client_onUpdateBaseDir"] = new Message_Client_onUpdateBaseDir(13, "Client_onUpdateBaseDir", -1, -1, new List<Byte>());
-			Messages.clientMessages[13] = Messages.messages["Client_onUpdateBaseDir"];
+			Messages.messages["Client_onUpdateBaseDir"] = new Message_Client_onUpdateBaseDir(14, "Client_onUpdateBaseDir", -1, -1, new List<Byte>());
+			Messages.clientMessages[14] = Messages.messages["Client_onUpdateBaseDir"];
 
 
 			List<Byte> Client_onUpdateBasePosXZ_argstypes = new List<Byte>();
 			Client_onUpdateBasePosXZ_argstypes.Add(13);
 			Client_onUpdateBasePosXZ_argstypes.Add(13);
-			Messages.messages["Client_onUpdateBasePosXZ"] = new Message_Client_onUpdateBasePosXZ(14, "Client_onUpdateBasePosXZ", 8, 0, Client_onUpdateBasePosXZ_argstypes);
-			Messages.clientMessages[14] = Messages.messages["Client_onUpdateBasePosXZ"];
+			Messages.messages["Client_onUpdateBasePosXZ"] = new Message_Client_onUpdateBasePosXZ(15, "Client_onUpdateBasePosXZ", 8, 0, Client_onUpdateBasePosXZ_argstypes);
+			Messages.clientMessages[15] = Messages.messages["Client_onUpdateBasePosXZ"];
 
-			Messages.messages["Client_onUpdateData"] = new Message_Client_onUpdateData(15, "Client_onUpdateData", -1, -1, new List<Byte>());
-			Messages.clientMessages[15] = Messages.messages["Client_onUpdateData"];
+			Messages.messages["Client_onUpdateData"] = new Message_Client_onUpdateData(16, "Client_onUpdateData", -1, -1, new List<Byte>());
+			Messages.clientMessages[16] = Messages.messages["Client_onUpdateData"];
 
-			Messages.messages["Client_onUpdateData_ypr"] = new Message_Client_onUpdateData_ypr(16, "Client_onUpdateData_ypr", -1, -1, new List<Byte>());
-			Messages.clientMessages[16] = Messages.messages["Client_onUpdateData_ypr"];
+			Messages.messages["Client_onUpdateData_ypr"] = new Message_Client_onUpdateData_ypr(17, "Client_onUpdateData_ypr", -1, -1, new List<Byte>());
+			Messages.clientMessages[17] = Messages.messages["Client_onUpdateData_ypr"];
 
-			Messages.messages["Client_onUpdateData_yp"] = new Message_Client_onUpdateData_yp(17, "Client_onUpdateData_yp", -1, -1, new List<Byte>());
-			Messages.clientMessages[17] = Messages.messages["Client_onUpdateData_yp"];
+			Messages.messages["Client_onUpdateData_yp"] = new Message_Client_onUpdateData_yp(18, "Client_onUpdateData_yp", -1, -1, new List<Byte>());
+			Messages.clientMessages[18] = Messages.messages["Client_onUpdateData_yp"];
 
-			Messages.messages["Client_onUpdateData_yr"] = new Message_Client_onUpdateData_yr(18, "Client_onUpdateData_yr", -1, -1, new List<Byte>());
-			Messages.clientMessages[18] = Messages.messages["Client_onUpdateData_yr"];
+			Messages.messages["Client_onUpdateData_yr"] = new Message_Client_onUpdateData_yr(19, "Client_onUpdateData_yr", -1, -1, new List<Byte>());
+			Messages.clientMessages[19] = Messages.messages["Client_onUpdateData_yr"];
 
-			Messages.messages["Client_onUpdateData_pr"] = new Message_Client_onUpdateData_pr(19, "Client_onUpdateData_pr", -1, -1, new List<Byte>());
-			Messages.clientMessages[19] = Messages.messages["Client_onUpdateData_pr"];
+			Messages.messages["Client_onUpdateData_pr"] = new Message_Client_onUpdateData_pr(20, "Client_onUpdateData_pr", -1, -1, new List<Byte>());
+			Messages.clientMessages[20] = Messages.messages["Client_onUpdateData_pr"];
 
-			Messages.messages["Client_onUpdateData_y"] = new Message_Client_onUpdateData_y(20, "Client_onUpdateData_y", -1, -1, new List<Byte>());
-			Messages.clientMessages[20] = Messages.messages["Client_onUpdateData_y"];
+			Messages.messages["Client_onUpdateData_y"] = new Message_Client_onUpdateData_y(21, "Client_onUpdateData_y", -1, -1, new List<Byte>());
+			Messages.clientMessages[21] = Messages.messages["Client_onUpdateData_y"];
 
-			Messages.messages["Client_onUpdateData_p"] = new Message_Client_onUpdateData_p(21, "Client_onUpdateData_p", -1, -1, new List<Byte>());
-			Messages.clientMessages[21] = Messages.messages["Client_onUpdateData_p"];
+			Messages.messages["Client_onUpdateData_p"] = new Message_Client_onUpdateData_p(22, "Client_onUpdateData_p", -1, -1, new List<Byte>());
+			Messages.clientMessages[22] = Messages.messages["Client_onUpdateData_p"];
 
-			Messages.messages["Client_onUpdateData_r"] = new Message_Client_onUpdateData_r(22, "Client_onUpdateData_r", -1, -1, new List<Byte>());
-			Messages.clientMessages[22] = Messages.messages["Client_onUpdateData_r"];
+			Messages.messages["Client_onUpdateData_r"] = new Message_Client_onUpdateData_r(23, "Client_onUpdateData_r", -1, -1, new List<Byte>());
+			Messages.clientMessages[23] = Messages.messages["Client_onUpdateData_r"];
 
-			Messages.messages["Client_onUpdateData_xz"] = new Message_Client_onUpdateData_xz(23, "Client_onUpdateData_xz", -1, -1, new List<Byte>());
-			Messages.clientMessages[23] = Messages.messages["Client_onUpdateData_xz"];
+			Messages.messages["Client_onUpdateData_xz"] = new Message_Client_onUpdateData_xz(24, "Client_onUpdateData_xz", -1, -1, new List<Byte>());
+			Messages.clientMessages[24] = Messages.messages["Client_onUpdateData_xz"];
 
-			Messages.messages["Client_onUpdateData_xz_ypr"] = new Message_Client_onUpdateData_xz_ypr(24, "Client_onUpdateData_xz_ypr", -1, -1, new List<Byte>());
-			Messages.clientMessages[24] = Messages.messages["Client_onUpdateData_xz_ypr"];
+			Messages.messages["Client_onUpdateData_xz_ypr"] = new Message_Client_onUpdateData_xz_ypr(25, "Client_onUpdateData_xz_ypr", -1, -1, new List<Byte>());
+			Messages.clientMessages[25] = Messages.messages["Client_onUpdateData_xz_ypr"];
 
-			Messages.messages["Client_onUpdateData_xz_yp"] = new Message_Client_onUpdateData_xz_yp(25, "Client_onUpdateData_xz_yp", -1, -1, new List<Byte>());
-			Messages.clientMessages[25] = Messages.messages["Client_onUpdateData_xz_yp"];
+			Messages.messages["Client_onUpdateData_xz_yp"] = new Message_Client_onUpdateData_xz_yp(26, "Client_onUpdateData_xz_yp", -1, -1, new List<Byte>());
+			Messages.clientMessages[26] = Messages.messages["Client_onUpdateData_xz_yp"];
 
-			Messages.messages["Client_onUpdateData_xz_yr"] = new Message_Client_onUpdateData_xz_yr(26, "Client_onUpdateData_xz_yr", -1, -1, new List<Byte>());
-			Messages.clientMessages[26] = Messages.messages["Client_onUpdateData_xz_yr"];
+			Messages.messages["Client_onUpdateData_xz_yr"] = new Message_Client_onUpdateData_xz_yr(27, "Client_onUpdateData_xz_yr", -1, -1, new List<Byte>());
+			Messages.clientMessages[27] = Messages.messages["Client_onUpdateData_xz_yr"];
 
-			Messages.messages["Client_onUpdateData_xz_pr"] = new Message_Client_onUpdateData_xz_pr(27, "Client_onUpdateData_xz_pr", -1, -1, new List<Byte>());
-			Messages.clientMessages[27] = Messages.messages["Client_onUpdateData_xz_pr"];
+			Messages.messages["Client_onUpdateData_xz_pr"] = new Message_Client_onUpdateData_xz_pr(28, "Client_onUpdateData_xz_pr", -1, -1, new List<Byte>());
+			Messages.clientMessages[28] = Messages.messages["Client_onUpdateData_xz_pr"];
 
-			Messages.messages["Client_onUpdateData_xz_y"] = new Message_Client_onUpdateData_xz_y(28, "Client_onUpdateData_xz_y", -1, -1, new List<Byte>());
-			Messages.clientMessages[28] = Messages.messages["Client_onUpdateData_xz_y"];
+			Messages.messages["Client_onUpdateData_xz_y"] = new Message_Client_onUpdateData_xz_y(29, "Client_onUpdateData_xz_y", -1, -1, new List<Byte>());
+			Messages.clientMessages[29] = Messages.messages["Client_onUpdateData_xz_y"];
 
-			Messages.messages["Client_onUpdateData_xz_p"] = new Message_Client_onUpdateData_xz_p(29, "Client_onUpdateData_xz_p", -1, -1, new List<Byte>());
-			Messages.clientMessages[29] = Messages.messages["Client_onUpdateData_xz_p"];
+			Messages.messages["Client_onUpdateData_xz_p"] = new Message_Client_onUpdateData_xz_p(30, "Client_onUpdateData_xz_p", -1, -1, new List<Byte>());
+			Messages.clientMessages[30] = Messages.messages["Client_onUpdateData_xz_p"];
 
-			Messages.messages["Client_onUpdateData_xz_r"] = new Message_Client_onUpdateData_xz_r(30, "Client_onUpdateData_xz_r", -1, -1, new List<Byte>());
-			Messages.clientMessages[30] = Messages.messages["Client_onUpdateData_xz_r"];
+			Messages.messages["Client_onUpdateData_xz_r"] = new Message_Client_onUpdateData_xz_r(31, "Client_onUpdateData_xz_r", -1, -1, new List<Byte>());
+			Messages.clientMessages[31] = Messages.messages["Client_onUpdateData_xz_r"];
 
-			Messages.messages["Client_onUpdateData_xyz"] = new Message_Client_onUpdateData_xyz(31, "Client_onUpdateData_xyz", -1, -1, new List<Byte>());
-			Messages.clientMessages[31] = Messages.messages["Client_onUpdateData_xyz"];
+			Messages.messages["Client_onUpdateData_xyz"] = new Message_Client_onUpdateData_xyz(32, "Client_onUpdateData_xyz", -1, -1, new List<Byte>());
+			Messages.clientMessages[32] = Messages.messages["Client_onUpdateData_xyz"];
 
-			Messages.messages["Client_onUpdateData_xyz_ypr"] = new Message_Client_onUpdateData_xyz_ypr(32, "Client_onUpdateData_xyz_ypr", -1, -1, new List<Byte>());
-			Messages.clientMessages[32] = Messages.messages["Client_onUpdateData_xyz_ypr"];
+			Messages.messages["Client_onUpdateData_xyz_ypr"] = new Message_Client_onUpdateData_xyz_ypr(33, "Client_onUpdateData_xyz_ypr", -1, -1, new List<Byte>());
+			Messages.clientMessages[33] = Messages.messages["Client_onUpdateData_xyz_ypr"];
 
-			Messages.messages["Client_onUpdateData_xyz_yp"] = new Message_Client_onUpdateData_xyz_yp(33, "Client_onUpdateData_xyz_yp", -1, -1, new List<Byte>());
-			Messages.clientMessages[33] = Messages.messages["Client_onUpdateData_xyz_yp"];
+			Messages.messages["Client_onUpdateData_xyz_yp"] = new Message_Client_onUpdateData_xyz_yp(34, "Client_onUpdateData_xyz_yp", -1, -1, new List<Byte>());
+			Messages.clientMessages[34] = Messages.messages["Client_onUpdateData_xyz_yp"];
 
-			Messages.messages["Client_onUpdateData_xyz_yr"] = new Message_Client_onUpdateData_xyz_yr(34, "Client_onUpdateData_xyz_yr", -1, -1, new List<Byte>());
-			Messages.clientMessages[34] = Messages.messages["Client_onUpdateData_xyz_yr"];
+			Messages.messages["Client_onUpdateData_xyz_yr"] = new Message_Client_onUpdateData_xyz_yr(35, "Client_onUpdateData_xyz_yr", -1, -1, new List<Byte>());
+			Messages.clientMessages[35] = Messages.messages["Client_onUpdateData_xyz_yr"];
 
-			Messages.messages["Client_onUpdateData_xyz_pr"] = new Message_Client_onUpdateData_xyz_pr(35, "Client_onUpdateData_xyz_pr", -1, -1, new List<Byte>());
-			Messages.clientMessages[35] = Messages.messages["Client_onUpdateData_xyz_pr"];
+			Messages.messages["Client_onUpdateData_xyz_pr"] = new Message_Client_onUpdateData_xyz_pr(36, "Client_onUpdateData_xyz_pr", -1, -1, new List<Byte>());
+			Messages.clientMessages[36] = Messages.messages["Client_onUpdateData_xyz_pr"];
 
-			Messages.messages["Client_onUpdateData_xyz_y"] = new Message_Client_onUpdateData_xyz_y(36, "Client_onUpdateData_xyz_y", -1, -1, new List<Byte>());
-			Messages.clientMessages[36] = Messages.messages["Client_onUpdateData_xyz_y"];
+			Messages.messages["Client_onUpdateData_xyz_y"] = new Message_Client_onUpdateData_xyz_y(37, "Client_onUpdateData_xyz_y", -1, -1, new List<Byte>());
+			Messages.clientMessages[37] = Messages.messages["Client_onUpdateData_xyz_y"];
 
-			Messages.messages["Client_onUpdateData_xyz_p"] = new Message_Client_onUpdateData_xyz_p(37, "Client_onUpdateData_xyz_p", -1, -1, new List<Byte>());
-			Messages.clientMessages[37] = Messages.messages["Client_onUpdateData_xyz_p"];
+			Messages.messages["Client_onUpdateData_xyz_p"] = new Message_Client_onUpdateData_xyz_p(38, "Client_onUpdateData_xyz_p", -1, -1, new List<Byte>());
+			Messages.clientMessages[38] = Messages.messages["Client_onUpdateData_xyz_p"];
 
-			Messages.messages["Client_onUpdateData_xyz_r"] = new Message_Client_onUpdateData_xyz_r(38, "Client_onUpdateData_xyz_r", -1, -1, new List<Byte>());
-			Messages.clientMessages[38] = Messages.messages["Client_onUpdateData_xyz_r"];
+			Messages.messages["Client_onUpdateData_xyz_r"] = new Message_Client_onUpdateData_xyz_r(39, "Client_onUpdateData_xyz_r", -1, -1, new List<Byte>());
+			Messages.clientMessages[39] = Messages.messages["Client_onUpdateData_xyz_r"];
 
-			Messages.messages["Client_onImportServerErrorsDescr"] = new Message_Client_onImportServerErrorsDescr(39, "Client_onImportServerErrorsDescr", -1, -1, new List<Byte>());
-			Messages.clientMessages[39] = Messages.messages["Client_onImportServerErrorsDescr"];
+			Messages.messages["Client_onUpdateData_ypr_optimized"] = new Message_Client_onUpdateData_ypr_optimized(40, "Client_onUpdateData_ypr_optimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[40] = Messages.messages["Client_onUpdateData_ypr_optimized"];
 
-			Messages.messages["Client_initSpaceData"] = new Message_Client_initSpaceData(40, "Client_initSpaceData", -1, -1, new List<Byte>());
-			Messages.clientMessages[40] = Messages.messages["Client_initSpaceData"];
+			Messages.messages["Client_onUpdateData_yp_optimized"] = new Message_Client_onUpdateData_yp_optimized(41, "Client_onUpdateData_yp_optimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[41] = Messages.messages["Client_onUpdateData_yp_optimized"];
+
+			Messages.messages["Client_onUpdateData_yr_optimized"] = new Message_Client_onUpdateData_yr_optimized(42, "Client_onUpdateData_yr_optimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[42] = Messages.messages["Client_onUpdateData_yr_optimized"];
+
+			Messages.messages["Client_onUpdateData_pr_optimized"] = new Message_Client_onUpdateData_pr_optimized(43, "Client_onUpdateData_pr_optimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[43] = Messages.messages["Client_onUpdateData_pr_optimized"];
+
+			Messages.messages["Client_onUpdateData_y_optimized"] = new Message_Client_onUpdateData_y_optimized(44, "Client_onUpdateData_y_optimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[44] = Messages.messages["Client_onUpdateData_y_optimized"];
+
+			Messages.messages["Client_onUpdateData_p_optimized"] = new Message_Client_onUpdateData_p_optimized(45, "Client_onUpdateData_p_optimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[45] = Messages.messages["Client_onUpdateData_p_optimized"];
+
+			Messages.messages["Client_onUpdateData_r_optimized"] = new Message_Client_onUpdateData_r_optimized(46, "Client_onUpdateData_r_optimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[46] = Messages.messages["Client_onUpdateData_r_optimized"];
+
+			Messages.messages["Client_onUpdateData_xz_optimized"] = new Message_Client_onUpdateData_xz_optimized(47, "Client_onUpdateData_xz_optimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[47] = Messages.messages["Client_onUpdateData_xz_optimized"];
+
+			Messages.messages["Client_onUpdateData_xz_ypr_optimized"] = new Message_Client_onUpdateData_xz_ypr_optimized(48, "Client_onUpdateData_xz_ypr_optimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[48] = Messages.messages["Client_onUpdateData_xz_ypr_optimized"];
+
+			Messages.messages["Client_onUpdateData_xz_yp_optimized"] = new Message_Client_onUpdateData_xz_yp_optimized(49, "Client_onUpdateData_xz_yp_optimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[49] = Messages.messages["Client_onUpdateData_xz_yp_optimized"];
+
+			Messages.messages["Client_onUpdateData_xz_yr_optimized"] = new Message_Client_onUpdateData_xz_yr_optimized(50, "Client_onUpdateData_xz_yr_optimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[50] = Messages.messages["Client_onUpdateData_xz_yr_optimized"];
+
+			Messages.messages["Client_onUpdateData_xz_pr_optimized"] = new Message_Client_onUpdateData_xz_pr_optimized(51, "Client_onUpdateData_xz_pr_optimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[51] = Messages.messages["Client_onUpdateData_xz_pr_optimized"];
+
+			Messages.messages["Client_onUpdateData_xz_y_optimized"] = new Message_Client_onUpdateData_xz_y_optimized(52, "Client_onUpdateData_xz_y_optimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[52] = Messages.messages["Client_onUpdateData_xz_y_optimized"];
+
+			Messages.messages["Client_onUpdateData_xz_p_optimized"] = new Message_Client_onUpdateData_xz_p_optimized(53, "Client_onUpdateData_xz_p_optimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[53] = Messages.messages["Client_onUpdateData_xz_p_optimized"];
+
+			Messages.messages["Client_onUpdateData_xz_r_optimized"] = new Message_Client_onUpdateData_xz_r_optimized(54, "Client_onUpdateData_xz_r_optimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[54] = Messages.messages["Client_onUpdateData_xz_r_optimized"];
+
+			Messages.messages["Client_onUpdateData_xyz_optimized"] = new Message_Client_onUpdateData_xyz_optimized(55, "Client_onUpdateData_xyz_optimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[55] = Messages.messages["Client_onUpdateData_xyz_optimized"];
+
+			Messages.messages["Client_onUpdateData_xyz_ypr_optimized"] = new Message_Client_onUpdateData_xyz_ypr_optimized(56, "Client_onUpdateData_xyz_ypr_optimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[56] = Messages.messages["Client_onUpdateData_xyz_ypr_optimized"];
+
+			Messages.messages["Client_onUpdateData_xyz_yp_optimized"] = new Message_Client_onUpdateData_xyz_yp_optimized(57, "Client_onUpdateData_xyz_yp_optimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[57] = Messages.messages["Client_onUpdateData_xyz_yp_optimized"];
+
+			Messages.messages["Client_onUpdateData_xyz_yr_optimized"] = new Message_Client_onUpdateData_xyz_yr_optimized(58, "Client_onUpdateData_xyz_yr_optimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[58] = Messages.messages["Client_onUpdateData_xyz_yr_optimized"];
+
+			Messages.messages["Client_onUpdateData_xyz_pr_optimized"] = new Message_Client_onUpdateData_xyz_pr_optimized(59, "Client_onUpdateData_xyz_pr_optimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[59] = Messages.messages["Client_onUpdateData_xyz_pr_optimized"];
+
+			Messages.messages["Client_onUpdateData_xyz_y_optimized"] = new Message_Client_onUpdateData_xyz_y_optimized(60, "Client_onUpdateData_xyz_y_optimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[60] = Messages.messages["Client_onUpdateData_xyz_y_optimized"];
+
+			Messages.messages["Client_onUpdateData_xyz_p_optimized"] = new Message_Client_onUpdateData_xyz_p_optimized(61, "Client_onUpdateData_xyz_p_optimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[61] = Messages.messages["Client_onUpdateData_xyz_p_optimized"];
+
+			Messages.messages["Client_onUpdateData_xyz_r_optimized"] = new Message_Client_onUpdateData_xyz_r_optimized(62, "Client_onUpdateData_xyz_r_optimized", -1, -1, new List<Byte>());
+			Messages.clientMessages[62] = Messages.messages["Client_onUpdateData_xyz_r_optimized"];
+
+			Messages.messages["Client_onImportServerErrorsDescr"] = new Message_Client_onImportServerErrorsDescr(63, "Client_onImportServerErrorsDescr", -1, -1, new List<Byte>());
+			Messages.clientMessages[63] = Messages.messages["Client_onImportServerErrorsDescr"];
+
+			Messages.messages["Client_onImportClientSDK"] = new Message_Client_onImportClientSDK(64, "Client_onImportClientSDK", -1, -1, new List<Byte>());
+			Messages.clientMessages[64] = Messages.messages["Client_onImportClientSDK"];
+
+			Messages.messages["Client_initSpaceData"] = new Message_Client_initSpaceData(65, "Client_initSpaceData", -1, -1, new List<Byte>());
+			Messages.clientMessages[65] = Messages.messages["Client_initSpaceData"];
 
 
 			List<Byte> Client_setSpaceData_argstypes = new List<Byte>();
 			Client_setSpaceData_argstypes.Add(4);
 			Client_setSpaceData_argstypes.Add(1);
 			Client_setSpaceData_argstypes.Add(1);
-			Messages.messages["Client_setSpaceData"] = new Message_Client_setSpaceData(41, "Client_setSpaceData", -1, 0, Client_setSpaceData_argstypes);
-			Messages.clientMessages[41] = Messages.messages["Client_setSpaceData"];
+			Messages.messages["Client_setSpaceData"] = new Message_Client_setSpaceData(66, "Client_setSpaceData", -1, 0, Client_setSpaceData_argstypes);
+			Messages.clientMessages[66] = Messages.messages["Client_setSpaceData"];
 
 
 			List<Byte> Client_delSpaceData_argstypes = new List<Byte>();
 			Client_delSpaceData_argstypes.Add(4);
 			Client_delSpaceData_argstypes.Add(1);
-			Messages.messages["Client_delSpaceData"] = new Message_Client_delSpaceData(42, "Client_delSpaceData", -1, 0, Client_delSpaceData_argstypes);
-			Messages.clientMessages[42] = Messages.messages["Client_delSpaceData"];
+			Messages.messages["Client_delSpaceData"] = new Message_Client_delSpaceData(67, "Client_delSpaceData", -1, 0, Client_delSpaceData_argstypes);
+			Messages.clientMessages[67] = Messages.messages["Client_delSpaceData"];
 
 
 			List<Byte> Client_onReqAccountResetPasswordCB_argstypes = new List<Byte>();
 			Client_onReqAccountResetPasswordCB_argstypes.Add(3);
-			Messages.messages["Client_onReqAccountResetPasswordCB"] = new Message_Client_onReqAccountResetPasswordCB(43, "Client_onReqAccountResetPasswordCB", 2, 0, Client_onReqAccountResetPasswordCB_argstypes);
-			Messages.clientMessages[43] = Messages.messages["Client_onReqAccountResetPasswordCB"];
+			Messages.messages["Client_onReqAccountResetPasswordCB"] = new Message_Client_onReqAccountResetPasswordCB(68, "Client_onReqAccountResetPasswordCB", 2, 0, Client_onReqAccountResetPasswordCB_argstypes);
+			Messages.clientMessages[68] = Messages.messages["Client_onReqAccountResetPasswordCB"];
 
 
 			List<Byte> Client_onReqAccountBindEmailCB_argstypes = new List<Byte>();
 			Client_onReqAccountBindEmailCB_argstypes.Add(3);
-			Messages.messages["Client_onReqAccountBindEmailCB"] = new Message_Client_onReqAccountBindEmailCB(44, "Client_onReqAccountBindEmailCB", 2, 0, Client_onReqAccountBindEmailCB_argstypes);
-			Messages.clientMessages[44] = Messages.messages["Client_onReqAccountBindEmailCB"];
+			Messages.messages["Client_onReqAccountBindEmailCB"] = new Message_Client_onReqAccountBindEmailCB(69, "Client_onReqAccountBindEmailCB", 2, 0, Client_onReqAccountBindEmailCB_argstypes);
+			Messages.clientMessages[69] = Messages.messages["Client_onReqAccountBindEmailCB"];
 
 
 			List<Byte> Client_onReqAccountNewPasswordCB_argstypes = new List<Byte>();
 			Client_onReqAccountNewPasswordCB_argstypes.Add(3);
-			Messages.messages["Client_onReqAccountNewPasswordCB"] = new Message_Client_onReqAccountNewPasswordCB(45, "Client_onReqAccountNewPasswordCB", 2, 0, Client_onReqAccountNewPasswordCB_argstypes);
-			Messages.clientMessages[45] = Messages.messages["Client_onReqAccountNewPasswordCB"];
+			Messages.messages["Client_onReqAccountNewPasswordCB"] = new Message_Client_onReqAccountNewPasswordCB(70, "Client_onReqAccountNewPasswordCB", 2, 0, Client_onReqAccountNewPasswordCB_argstypes);
+			Messages.clientMessages[70] = Messages.messages["Client_onReqAccountNewPasswordCB"];
 
-			Messages.messages["Client_onReloginBaseappSuccessfully"] = new Message_Client_onReloginBaseappSuccessfully(46, "Client_onReloginBaseappSuccessfully", -1, -1, new List<Byte>());
-			Messages.clientMessages[46] = Messages.messages["Client_onReloginBaseappSuccessfully"];
+			Messages.messages["Client_onReloginBaseappSuccessfully"] = new Message_Client_onReloginBaseappSuccessfully(71, "Client_onReloginBaseappSuccessfully", -1, -1, new List<Byte>());
+			Messages.clientMessages[71] = Messages.messages["Client_onReloginBaseappSuccessfully"];
 
-			Messages.messages["Client_onAppActiveTickCB"] = new Message_Client_onAppActiveTickCB(47, "Client_onAppActiveTickCB", 0, 0, new List<Byte>());
-			Messages.clientMessages[47] = Messages.messages["Client_onAppActiveTickCB"];
+			Messages.messages["Client_onAppActiveTickCB"] = new Message_Client_onAppActiveTickCB(72, "Client_onAppActiveTickCB", 0, 0, new List<Byte>());
+			Messages.clientMessages[72] = Messages.messages["Client_onAppActiveTickCB"];
 
 			Messages.messages["Client_onCreateAccountResult"] = new Message_Client_onCreateAccountResult(501, "Client_onCreateAccountResult", -1, -1, new List<Byte>());
 			Messages.clientMessages[501] = Messages.messages["Client_onCreateAccountResult"];
@@ -1607,49 +2053,52 @@ namespace KBEngine
 			Messages.messages["Loginapp_reqCreateMailAccount"] = new Message_Loginapp_reqCreateMailAccount(6, "Loginapp_reqCreateMailAccount", -1, 0, new List<Byte>());
 			Messages.loginappMessages[6] = Messages.messages["Loginapp_reqCreateMailAccount"];
 
-			Messages.messages["Loginapp_importServerErrorsDescr"] = new Message_Loginapp_importServerErrorsDescr(7, "Loginapp_importServerErrorsDescr", 0, 0, new List<Byte>());
-			Messages.loginappMessages[7] = Messages.messages["Loginapp_importServerErrorsDescr"];
+			Messages.messages["Loginapp_importClientSDK"] = new Message_Loginapp_importClientSDK(7, "Loginapp_importClientSDK", -1, 0, new List<Byte>());
+			Messages.loginappMessages[7] = Messages.messages["Loginapp_importClientSDK"];
 
-			Messages.messages["Loginapp_onClientActiveTick"] = new Message_Loginapp_onClientActiveTick(10, "Loginapp_onClientActiveTick", 0, 0, new List<Byte>());
-			Messages.loginappMessages[10] = Messages.messages["Loginapp_onClientActiveTick"];
+			Messages.messages["Loginapp_importServerErrorsDescr"] = new Message_Loginapp_importServerErrorsDescr(8, "Loginapp_importServerErrorsDescr", 0, 0, new List<Byte>());
+			Messages.loginappMessages[8] = Messages.messages["Loginapp_importServerErrorsDescr"];
+
+			Messages.messages["Loginapp_onClientActiveTick"] = new Message_Loginapp_onClientActiveTick(11, "Loginapp_onClientActiveTick", 0, 0, new List<Byte>());
+			Messages.loginappMessages[11] = Messages.messages["Loginapp_onClientActiveTick"];
 
 
 			List<Byte> Loginapp_reqAccountResetPassword_argstypes = new List<Byte>();
 			Loginapp_reqAccountResetPassword_argstypes.Add(1);
-			Messages.messages["Loginapp_reqAccountResetPassword"] = new Message_Loginapp_reqAccountResetPassword(11, "Loginapp_reqAccountResetPassword", -1, 0, Loginapp_reqAccountResetPassword_argstypes);
-			Messages.loginappMessages[11] = Messages.messages["Loginapp_reqAccountResetPassword"];
+			Messages.messages["Loginapp_reqAccountResetPassword"] = new Message_Loginapp_reqAccountResetPassword(12, "Loginapp_reqAccountResetPassword", -1, 0, Loginapp_reqAccountResetPassword_argstypes);
+			Messages.loginappMessages[12] = Messages.messages["Loginapp_reqAccountResetPassword"];
 
 
 			List<Byte> Baseapp_logoutBaseapp_argstypes = new List<Byte>();
 			Baseapp_logoutBaseapp_argstypes.Add(5);
 			Baseapp_logoutBaseapp_argstypes.Add(8);
-			Messages.messages["Baseapp_logoutBaseapp"] = new Message_Baseapp_logoutBaseapp(23, "Baseapp_logoutBaseapp", 12, 0, Baseapp_logoutBaseapp_argstypes);
-			Messages.baseappMessages[23] = Messages.messages["Baseapp_logoutBaseapp"];
+			Messages.messages["Baseapp_logoutBaseapp"] = new Message_Baseapp_logoutBaseapp(24, "Baseapp_logoutBaseapp", 12, 0, Baseapp_logoutBaseapp_argstypes);
+			Messages.baseappMessages[24] = Messages.messages["Baseapp_logoutBaseapp"];
 
-			Messages.messages["Baseapp_onUpdateDataFromClient"] = new Message_Baseapp_onUpdateDataFromClient(26, "Baseapp_onUpdateDataFromClient", -1, -1, new List<Byte>());
-			Messages.baseappMessages[26] = Messages.messages["Baseapp_onUpdateDataFromClient"];
+			Messages.messages["Baseapp_onUpdateDataFromClient"] = new Message_Baseapp_onUpdateDataFromClient(27, "Baseapp_onUpdateDataFromClient", -1, -1, new List<Byte>());
+			Messages.baseappMessages[27] = Messages.messages["Baseapp_onUpdateDataFromClient"];
 
-			Messages.messages["Baseapp_onUpdateDataFromClientForControlledEntity"] = new Message_Baseapp_onUpdateDataFromClientForControlledEntity(27, "Baseapp_onUpdateDataFromClientForControlledEntity", -1, -1, new List<Byte>());
-			Messages.baseappMessages[27] = Messages.messages["Baseapp_onUpdateDataFromClientForControlledEntity"];
+			Messages.messages["Baseapp_onUpdateDataFromClientForControlledEntity"] = new Message_Baseapp_onUpdateDataFromClientForControlledEntity(28, "Baseapp_onUpdateDataFromClientForControlledEntity", -1, -1, new List<Byte>());
+			Messages.baseappMessages[28] = Messages.messages["Baseapp_onUpdateDataFromClientForControlledEntity"];
 
 
 			List<Byte> Baseapp_reqAccountBindEmail_argstypes = new List<Byte>();
 			Baseapp_reqAccountBindEmail_argstypes.Add(8);
 			Baseapp_reqAccountBindEmail_argstypes.Add(1);
 			Baseapp_reqAccountBindEmail_argstypes.Add(1);
-			Messages.messages["Baseapp_reqAccountBindEmail"] = new Message_Baseapp_reqAccountBindEmail(49, "Baseapp_reqAccountBindEmail", -1, 0, Baseapp_reqAccountBindEmail_argstypes);
-			Messages.baseappMessages[49] = Messages.messages["Baseapp_reqAccountBindEmail"];
+			Messages.messages["Baseapp_reqAccountBindEmail"] = new Message_Baseapp_reqAccountBindEmail(50, "Baseapp_reqAccountBindEmail", -1, 0, Baseapp_reqAccountBindEmail_argstypes);
+			Messages.baseappMessages[50] = Messages.messages["Baseapp_reqAccountBindEmail"];
 
 
 			List<Byte> Baseapp_reqAccountNewPassword_argstypes = new List<Byte>();
 			Baseapp_reqAccountNewPassword_argstypes.Add(8);
 			Baseapp_reqAccountNewPassword_argstypes.Add(1);
 			Baseapp_reqAccountNewPassword_argstypes.Add(1);
-			Messages.messages["Baseapp_reqAccountNewPassword"] = new Message_Baseapp_reqAccountNewPassword(52, "Baseapp_reqAccountNewPassword", -1, 0, Baseapp_reqAccountNewPassword_argstypes);
-			Messages.baseappMessages[52] = Messages.messages["Baseapp_reqAccountNewPassword"];
+			Messages.messages["Baseapp_reqAccountNewPassword"] = new Message_Baseapp_reqAccountNewPassword(53, "Baseapp_reqAccountNewPassword", -1, 0, Baseapp_reqAccountNewPassword_argstypes);
+			Messages.baseappMessages[53] = Messages.messages["Baseapp_reqAccountNewPassword"];
 
-			Messages.messages["Entity_forwardEntityMessageToCellappFromClient"] = new Message_Entity_forwardEntityMessageToCellappFromClient(56, "Entity_forwardEntityMessageToCellappFromClient", -1, -1, new List<Byte>());
-			Messages.baseappMessages[56] = Messages.messages["Entity_forwardEntityMessageToCellappFromClient"];
+			Messages.messages["Entity_forwardEntityMessageToCellappFromClient"] = new Message_Entity_forwardEntityMessageToCellappFromClient(57, "Entity_forwardEntityMessageToCellappFromClient", -1, -1, new List<Byte>());
+			Messages.baseappMessages[57] = Messages.messages["Entity_forwardEntityMessageToCellappFromClient"];
 
 			Messages.messages["Baseapp_hello"] = new Message_Baseapp_hello(200, "Baseapp_hello", -1, -1, new List<Byte>());
 			Messages.baseappMessages[200] = Messages.messages["Baseapp_hello"];

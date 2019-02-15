@@ -18,13 +18,16 @@ public class KBEMain : MonoBehaviour
 	public string ip = "127.0.0.1";
 	public int port = 20013;
 	public KBEngineApp.CLIENT_TYPE clientType = KBEngineApp.CLIENT_TYPE.CLIENT_TYPE_MINI;
+	public KBEngineApp.NETWORK_ENCRYPT_TYPE networkEncryptType = KBEngineApp.NETWORK_ENCRYPT_TYPE.ENCRYPT_TYPE_NONE;
 	public int syncPlayerMS = 1000 / 10;
 	public int threadUpdateHZ = 10 * 2;
-	public int serverHeartbeatTick = 60 / 2;
+	public int serverHeartbeatTick = 60;
 	public int SEND_BUFFER_MAX = (int)KBEngine.NetworkInterface.TCP_PACKET_MAX;
 	public int RECV_BUFFER_MAX = (int)KBEngine.NetworkInterface.TCP_PACKET_MAX;
 	public bool useAliasEntityID = true;
 	public bool isOnInitCallPropertysSetMethods = true;
+
+	public bool automaticallyUpdateSDK = true;
 
 	protected virtual void Awake() 
 	 {
@@ -41,8 +44,26 @@ public class KBEMain : MonoBehaviour
 	
 	public virtual void installEvents()
 	{
+        KBEngine.Event.registerOut(EventOutTypes.onVersionNotMatch, this, "onVersionNotMatch");
+        KBEngine.Event.registerOut(EventOutTypes.onScriptVersionNotMatch, this, "onScriptVersionNotMatch");
 	}
 	
+	public void onVersionNotMatch(string verInfo, string serVerInfo)
+	{
+#if UNITY_EDITOR
+		if(automaticallyUpdateSDK)
+			gameObject.AddComponent<ClientSDKUpdater>();
+#endif
+	}
+
+	public void onScriptVersionNotMatch(string verInfo, string serVerInfo)
+	{
+#if UNITY_EDITOR
+		if(automaticallyUpdateSDK)
+			gameObject.AddComponent<ClientSDKUpdater>();
+#endif
+	}
+
 	public virtual void initKBEngine()
 	{
 		// 如果此处发生错误，请查看 Assets\Scripts\kbe_scripts\if_Entity_error_use______git_submodule_update_____kbengine_plugins_______open_this_file_and_I_will_tell_you.cs
@@ -54,9 +75,10 @@ public class KBEMain : MonoBehaviour
 		args.ip = ip;
 		args.port = port;
 		args.clientType = clientType;
-		args.syncPlayerMS = syncPlayerMS;
+        args.networkEncryptType = networkEncryptType;
+        args.syncPlayerMS = syncPlayerMS;
 		args.threadUpdateHZ = threadUpdateHZ;
-		args.serverHeartbeatTick = serverHeartbeatTick;
+		args.serverHeartbeatTick = serverHeartbeatTick / 2;
 		args.useAliasEntityID = useAliasEntityID;
 		args.isOnInitCallPropertysSetMethods = isOnInitCallPropertysSetMethods;
 
@@ -79,6 +101,7 @@ public class KBEMain : MonoBehaviour
             KBEngineApp.app.destroy();
             KBEngineApp.app = null;
         }
+		KBEngine.Event.clear();
 		MonoBehaviour.print("clientapp::OnDestroy(): end");
 	}
 	
