@@ -162,10 +162,11 @@
 #endif
 
 						msg.handleMessage(stream);
+
 #if UNITY_EDITOR
 						Dbg.profileEnd(msg.name);
 #endif
-						
+					
 						stream.clear();
 						
 						state = READ_STATE.READ_STATE_MSGID;

@@ -87,11 +87,11 @@
 		
 		// 服务端与客户端的版本号以及协议MD5
 		public string serverVersion = "";
-		public string clientVersion = "1.3.1";
+		public string clientVersion = "1.3.4";
 		public string serverScriptVersion = "";
 		public string clientScriptVersion = "0.1.0";
-		public string serverProtocolMD5 = "A3CA8DE2ED97E73718690E99B2DCA0A7";
-		public string serverEntitydefMD5 = "D9BE27DA40153A58EFB4835189190B5D";
+		public string serverProtocolMD5 = "13AF19B0A958067AEB2BC4ED1CD3B46F";
+		public string serverEntitydefMD5 = "2B445B443EFC9427000733CD39EB2700";
 		
 		// 当前玩家的实体id与实体类别
 		public UInt64 entity_uuid = 0;
@@ -326,7 +326,7 @@
 			// 更新玩家的位置与朝向到服务端
 			updatePlayerToServer();
 			
-			if(span.Seconds > _args.serverHeartbeatTick)
+			if(_args.serverHeartbeatTick > 0 && span.Seconds > _args.serverHeartbeatTick)
 			{
 				span = _lastTickCBTime - _lastTickTime;
 				

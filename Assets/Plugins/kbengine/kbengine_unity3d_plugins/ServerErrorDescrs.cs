@@ -93,7 +93,7 @@ namespace KBEngine
 				ServerErr e;
 				e.id = 7;
 				e.name = "SERVER_ERR_ACCOUNT_CREATE_FAILED";
-				e.descr = "创建账号失败（已经存在一个相同的账号）。";
+				e.descr = "创建账号失败。";
 
 				serverErrs.Add(e.id, e);
 			}
